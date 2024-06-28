@@ -1,0 +1,123 @@
+/* ************header start************** */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.box {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    direction: rtl;
+    justify-content: space-between;
+    background-color: #000 ;
+    position: relative;
+    font-family: "Rubik", sans-serif;
+    font-size: 22px;
+}
+.img {
+    height: 10vh;
+    width: 10vw;
+    border-radius: 25px;
+}
+.link-2 {
+    transition: all 0.5s;
+}
+.link-2:hover {
+    border-radius: 25px;
+    scale: 1.11;
+}
+header li {
+    list-style: none;
+    margin-left: 100px;
+    color: #00dcff;
+}
+header ul {
+    display: flex;
+}
+header a {
+    text-decoration: none;
+    color: #00dcff;
+}
+.link {
+    height: 100%;
+    width: 100px;
+}
+header a:hover {
+    color: #fff;
+}
+/* ********************header end*********************** */
+.mid {
+    height: 90vh;
+    width: 100%;
+    background-color: #ffe4b5;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    font-size: 40px;
+    flex-direction: column;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+.mid p {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    position: relative;
+    color: #5b5b5b;
+}
+/* *************main************* */
+.main {
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    background-color: #717275;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 46px;
+    color: #fff;
+    font-family: "Playwrite IT Moderna", cursive;
+    flex-direction: column;
+}
+#links {
+    display: flex;
+    flex-direction: row;
+}
+#facebook {
+    padding-right: 100px;
+    margin-right: 100px;
+}
+.footer {
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    background-color: #392c76;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.footer span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #000;
+}
+@media (max-width:900px) {
+    header li {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .mid {
+        font-size: 18px;
+    }
+    .footer {
+        font-size: 18px;
+    }
+}
